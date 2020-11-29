@@ -1,0 +1,66 @@
+.text-danger {
+    color: red !important;
+}
+
+.alert {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    color: #fff;
+    padding: .5rem 3rem;
+    border-radius: 4px;
+}
+
+.alert span{
+    font-weight: bold;
+}
+
+.alert-danger {
+    background-color: red !important;
+}
+
+.alert-success {
+    background-color: green !important;
+}
+
+.btn {
+    border: none;
+    padding: .5rem .8rem;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #564FCC;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #3d35d3;
+}
+
+.btn-danger {
+    background-color: #c72222;
+    color: #fff;
+
+}
+
+.btn-danger:hover {
+    background-color: #a50909;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-3 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+@media screen and (min-width: 992px) {
+    .w-lg-80 {
+        width: 80% !important;
+    }
+}
